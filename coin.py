@@ -8,5 +8,5 @@ import string
 
 #the coin flip function uses random choice from .random lib.
 def flipCoin():
-	return random.choice(["HEAD","TAILS"])
+	return random.choice(["HEADS","TAILS"])
 print(flipCoin())
